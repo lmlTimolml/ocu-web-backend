@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_employee_cards",
+  "info": {
+    "displayName": "employeeCard",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

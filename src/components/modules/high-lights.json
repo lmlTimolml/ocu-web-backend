@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_modules_high_lights",
+  "info": {
+    "displayName": "highLights",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "featuredEvent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.event-card"
+    },
+    "featuredNews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.left-card"
+    }
+  }
+}

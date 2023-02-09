@@ -46,13 +46,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
-    },
-    "seo": {
-      "displayName": "seoInformation",
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.seo-information",
-      "required": false
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "services_pages",
+  "collectionName": "client_pages",
   "info": {
-    "singularName": "services-page",
-    "pluralName": "services-pages",
-    "displayName": "ServicesPage",
+    "singularName": "client-page",
+    "pluralName": "client-pages",
+    "displayName": "ClientPage",
     "description": ""
   },
   "options": {
@@ -19,8 +19,7 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "pageTitle",
-      "required": true
+      "targetField": "pageTitle"
     },
     "heroSection": {
       "type": "component",
@@ -32,6 +31,18 @@
       "type": "component",
       "repeatable": false,
       "component": "layout.breadcrumb-path"
+    },
+    "featuredClientsGrid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.generic-grid-module"
+    },
+    "dynamicClientPageSection": {
+      "type": "dynamiczone",
+      "components": [
+        "modules.modul-01",
+        "modules.contact-module"
+      ]
     }
   }
 }

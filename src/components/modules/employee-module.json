@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_modules_employee_modules",
+  "info": {
+    "displayName": "EmployeeModule",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image"
+    },
+    "employeeCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.employee-card"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_modules_contact_modules",
+  "info": {
+    "displayName": "contactModule",
+    "icon": "mail-bulk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "heading": {
+      "type": "string",
+      "required": false,
+      "default": "Noe du lurer på?"
+    },
+    "contactButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

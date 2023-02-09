@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_companyinfos",
+  "info": {
+    "displayName": "companyinfo",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string",
+      "default": "Oculos AS"
+    },
+    "companyAddress": {
+      "type": "string",
+      "default": "Kongens Gate 21, 0153 Oslo"
+    },
+    "companyEmail": {
+      "type": "email",
+      "default": "post@oculos.no"
+    },
+    "orgNr": {
+      "type": "string",
+      "default": "Org.nr 984 459 564"
+    },
+    "companyPhone": {
+      "type": "string"
+    }
+  }
+}

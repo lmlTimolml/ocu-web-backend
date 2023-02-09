@@ -4,33 +4,43 @@
   "info": {
     "singularName": "event-page",
     "pluralName": "event-pages",
-    "displayName": "eventPage"
+    "displayName": "EventPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "pageTitle": {
       "type": "string",
       "required": true,
       "unique": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "title",
+      "targetField": "pageTitle",
       "required": true
     },
-    "pageInfo": {
+    "heroSection": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.page-info",
+      "component": "layout.hero",
       "required": true
     },
-    "excludedEvents": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::event.event"
+    "breadcrumbpath": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.breadcrumb-path"
+    },
+    "dynamicEventPageSection": {
+      "type": "dynamiczone",
+      "components": [
+        "modules.modul-01",
+        "modules.high-lights",
+        "modules.generic-grid-module",
+        "modules.contact-module"
+      ]
     }
   }
 }

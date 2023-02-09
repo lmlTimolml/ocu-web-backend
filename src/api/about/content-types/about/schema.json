@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "services_pages",
+  "collectionName": "abouts",
   "info": {
-    "singularName": "services-page",
-    "pluralName": "services-pages",
-    "displayName": "ServicesPage",
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "AboutPage",
     "description": ""
   },
   "options": {
@@ -32,6 +32,23 @@
       "type": "component",
       "repeatable": false,
       "component": "layout.breadcrumb-path"
+    },
+    "managersGrid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.employee-module"
+    },
+    "employeeGrid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.employee-module"
+    },
+    "dynamicAboutSection": {
+      "type": "dynamiczone",
+      "components": [
+        "modules.modul-01",
+        "modules.contact-module"
+      ]
     }
   }
 }

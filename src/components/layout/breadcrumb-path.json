@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_breadcrumb_paths",
+  "info": {
+    "displayName": "breadcrumbPath",
+    "icon": "bread-slice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "breadcrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": false
+    }
+  }
+}

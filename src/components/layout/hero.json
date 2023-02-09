@@ -1,29 +1,33 @@
 {
   "collectionName": "components_layout_heroes",
   "info": {
-    "displayName": "hero",
-    "icon": "window-maximize",
+    "displayName": "Hero",
+    "icon": "pager",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "callToAction": {
-      "type": "string"
-    },
     "heroImage": {
       "type": "media",
-      "multiple": true,
-      "required": false,
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
       ]
     },
-    "buttons": {
-      "displayName": "link",
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "heroDescription": {
+      "type": "string"
+    },
+    "heroButton": {
       "type": "component",
       "repeatable": true,
-      "component": "layout.link"
+      "component": "shared.link"
     }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_modules_modul_01s",
+  "info": {
+    "displayName": "genericModule",
+    "icon": "th",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Heading",
+      "maxLength": 50,
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Curabitur hendrerit dignissim dui. Etiam efficitur arcu nec mauris sollicitudin sagittis. Mauris fringilla tempus nisl, id lobortis ex elementum a. Praesent ipsum nulla, efficitur sit amet blandit eu, fringilla vel elit. Morbi sagittis mi sit amet dolor posuere, eget dignissim nibh iaculis.",
+      "maxLength": 300
+    },
+    "txtlinkmod01": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "serviceLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "logoSection": {
+      "displayName": "logoSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.logo-section"
+    }
+  }
+}

@@ -20,12 +20,6 @@
       "type": "uid",
       "targetField": "title",
       "required": true
-    },
-    "pageInfo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.page-info",
-      "required": true
     }
   }
 }

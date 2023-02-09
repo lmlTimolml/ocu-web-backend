@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_client_logos",
+  "info": {
+    "displayName": "clientLogo",
+    "icon": "trademark"
+  },
+  "options": {},
+  "attributes": {
+    "clientlogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "clienturl": {
+      "type": "string"
+    }
+  }
+}

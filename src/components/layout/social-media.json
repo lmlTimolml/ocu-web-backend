@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_layout_social_medias",
+  "info": {
+    "displayName": "socialMedia",
+    "icon": "user-friends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "files"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ],
+      "default": "_blank"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

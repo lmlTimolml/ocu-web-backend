@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "socks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyinfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.companyinfo"
+    },
+    "footerlink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "socialmedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.social-media"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

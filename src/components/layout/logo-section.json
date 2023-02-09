@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_logo_sections",
+  "info": {
+    "displayName": "logoSection",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "clientLogo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.client-logo"
+    }
+  }
+}

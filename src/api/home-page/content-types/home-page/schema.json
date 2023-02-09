@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home Page",
+    "displayName": "HomePage",
     "description": ""
   },
   "options": {
@@ -12,48 +12,40 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "pageTitle": {
       "type": "string",
       "required": true,
-      "default": "Home",
       "unique": true
     },
-    "hero": {
-      "displayName": "hero",
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle",
+      "required": true
+    },
+    "heroSection": {
       "type": "component",
       "repeatable": false,
       "component": "layout.hero",
       "required": true
     },
-    "servicesPreview": {
-      "displayName": "ServicesPreview",
+    "breadcrumbpath": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.services-preview"
+      "component": "layout.breadcrumb-path",
+      "required": false
     },
-    "featuredEvent": {
-      "displayName": "featuredEvent",
-      "type": "component",
-      "repeatable": true,
-      "component": "layout.featured-event"
-    },
-    "articleSelection": {
-      "displayName": "articleSelection",
+    "highLights": {
+      "displayName": "highLights",
       "type": "component",
       "repeatable": false,
-      "component": "articles.article-selection"
+      "component": "modules.high-lights"
     },
-    "dynamicHomeSection": {
+    "dynamicHomePageSection": {
       "type": "dynamiczone",
       "components": [
-        "layout.newsletter-form",
-        "layout.latest-news"
+        "modules.modul-01",
+        "modules.contact-module"
       ]
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.seo-information"
     }
   }
 }
