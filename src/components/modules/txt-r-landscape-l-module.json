@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_modules_txt_r_landscape_l_modules",
+  "info": {
+    "displayName": "TxtRLandscapeLModule",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -4,22 +4,44 @@
   "info": {
     "singularName": "static-page",
     "pluralName": "static-pages",
-    "displayName": "staticPage"
+    "displayName": "staticPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "pageTitle": {
       "type": "string",
       "required": true,
       "unique": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "title",
+      "targetField": "pageTitle",
       "required": true
+    },
+    "moduleSelection": {
+      "type": "dynamiczone",
+      "components": [
+        "modules.heading-content",
+        "modules.service-heading-content",
+        "modules.full-media-module",
+        "modules.txt-l-square-r-module",
+        "modules.txt-l-landscape-r-module",
+        "modules.txt-r-square-r-module",
+        "modules.txt-r-landscape-l-module",
+        "modules.contact-module",
+        "modules.quote-module",
+        "modules.client-header-content"
+      ]
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "static_pages"
     }
   }
 }

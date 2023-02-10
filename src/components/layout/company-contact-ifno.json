@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_layout_company_contact_ifnos",
+  "info": {
+    "displayName": "companyContactIfno",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phonenmbr": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

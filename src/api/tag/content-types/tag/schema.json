@@ -20,6 +20,12 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "static_pages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::static-page.static-page",
+      "mappedBy": "tags"
     }
   }
 }

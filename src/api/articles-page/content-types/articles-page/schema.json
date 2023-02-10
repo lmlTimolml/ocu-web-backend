@@ -32,11 +32,6 @@
       "repeatable": false,
       "component": "layout.breadcrumb-path"
     },
-    "genericGrid": {
-      "type": "component",
-      "repeatable": false,
-      "component": "modules.generic-grid-module"
-    },
     "dynaimcInspirationPageSection": {
       "type": "dynamiczone",
       "components": [

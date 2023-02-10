@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_modules_full_media_modules",
+  "info": {
+    "displayName": "FullMediaModule",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

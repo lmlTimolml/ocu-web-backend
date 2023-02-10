@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_modules_company_contact_modules",
+  "info": {
+    "displayName": "CompanyContactModule",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "companycontactinfo": {
+      "displayName": "companyContactIfno",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.company-contact-ifno",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_modules_client_header_contents",
+  "info": {
+    "displayName": "ClientHeaderContent",
+    "icon": "user-tie"
+  },
+  "options": {},
+  "attributes": {
+    "clientLogoHeading": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "clientTextHeading": {
+      "type": "string"
+    },
+    "clientContent": {
+      "type": "richtext"
+    }
+  }
+}

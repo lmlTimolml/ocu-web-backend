@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_modules_quote_modules",
+  "info": {
+    "displayName": "QuoteModule",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "richtext",
+      "required": true
+    },
+    "source": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

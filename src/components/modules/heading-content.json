@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_modules_heading_contents",
+  "info": {
+    "displayName": "headingContent",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

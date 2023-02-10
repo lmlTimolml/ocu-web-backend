@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_modules_service_heading_contents",
+  "info": {
+    "displayName": "ServiceHeadingContent",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "serviceHeading": {
+      "type": "string",
+      "required": true
+    },
+    "serviceContent": {
+      "type": "richtext"
+    }
+  }
+}

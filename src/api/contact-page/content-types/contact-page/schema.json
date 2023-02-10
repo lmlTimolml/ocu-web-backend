@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "client_pages",
+  "collectionName": "contact_pages",
   "info": {
-    "singularName": "client-page",
-    "pluralName": "client-pages",
-    "displayName": "ClientPage",
-    "description": ""
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "ContactPage"
   },
   "options": {
     "draftAndPublish": true
@@ -32,12 +31,10 @@
       "repeatable": false,
       "component": "layout.breadcrumb-path"
     },
-    "dynamicClientPageSection": {
-      "type": "dynamiczone",
-      "components": [
-        "modules.modul-01",
-        "modules.contact-module"
-      ]
+    "companyContactModule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.company-contact-module"
     }
   }
 }

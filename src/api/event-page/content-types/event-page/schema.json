@@ -38,7 +38,6 @@
       "components": [
         "modules.modul-01",
         "modules.high-lights",
-        "modules.generic-grid-module",
         "modules.contact-module"
       ]
     }

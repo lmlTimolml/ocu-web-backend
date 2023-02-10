@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_modules_generic_layout_modules",
+  "info": {
+    "displayName": "genericLayoutModule",
+    "icon": "qrcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "layoutchoices": {
+      "type": "enumeration",
+      "enum": [
+        "HeadingContent",
+        "ServiceHeadingContent",
+        "TxtLImgR_Square",
+        "TxtLImgR_Landscape",
+        "TxtRImgL_Square",
+        "TxtRImgL_Landscape",
+        "QuoteSection"
+      ]
+    }
+  }
+}
