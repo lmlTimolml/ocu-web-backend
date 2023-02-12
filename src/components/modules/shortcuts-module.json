@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_modules_shortcuts_modules",
+  "info": {
+    "displayName": "shortcutsModule",
+    "icon": "project-diagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Snarveier: "
+    },
+    "shortcutLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_modules_rich_text_modules",
+  "info": {
+    "displayName": "richTextModule",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "richTxt": {
+      "type": "richtext"
+    },
+    "backGroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "transparent",
+        "lightGrey",
+        "lighterSage",
+        "lightOip",
+        "lightPiggy",
+        "harmony"
+      ]
+    }
+  }
+}

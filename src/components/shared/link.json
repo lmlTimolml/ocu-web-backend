@@ -9,11 +9,14 @@
   "attributes": {
     "label": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "url": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "linkText": {
+      "type": "string"
     }
   }
 }

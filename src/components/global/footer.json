@@ -25,6 +25,17 @@
     "label": {
       "type": "string",
       "required": true
+    },
+    "backGroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "transparent",
+        "lightGrey",
+        "lighterSage",
+        "lightOip",
+        "lightPiggy",
+        "harmony"
+      ]
     }
   }
 }

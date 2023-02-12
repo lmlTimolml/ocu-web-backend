@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_services_populates",
+  "info": {
+    "displayName": "servicesPopulate",
+    "icon": "border-none"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

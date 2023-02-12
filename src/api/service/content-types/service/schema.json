@@ -12,33 +12,42 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "pageTitle": {
       "type": "string",
       "required": true,
       "unique": true,
       "default": "Tjenester"
     },
-    "description": {
-      "type": "richtext"
-    },
     "slug": {
       "type": "uid",
-      "targetField": "name",
+      "targetField": "pageTitle",
       "required": true
     },
-    "images": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
+    "mediaModule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.full-media-module"
     },
-    "tags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tag.tag"
+    "serviceHeadingComponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modules.service-heading-content",
+      "required": true
+    },
+    "dynamicServicePageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "modules.txt-l-landscape-r-module",
+        "modules.txt-l-square-r-module",
+        "modules.txt-r-landscape-l-module",
+        "modules.txt-r-square-r-module",
+        "shared.seo",
+        "modules.quote-module",
+        "modules.rich-text-module",
+        "shared.link",
+        "modules.shortcuts-module"
+      ],
+      "required": true
     }
   }
 }

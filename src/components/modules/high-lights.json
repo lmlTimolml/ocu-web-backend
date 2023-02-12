@@ -2,19 +2,20 @@
   "collectionName": "components_modules_high_lights",
   "info": {
     "displayName": "highLights",
-    "icon": "border-all"
+    "icon": "border-all",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "featuredEvent": {
-      "type": "component",
-      "repeatable": true,
-      "component": "layout.event-card"
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
     },
-    "featuredNews": {
-      "type": "component",
-      "repeatable": true,
-      "component": "layout.left-card"
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event"
     }
   }
 }

@@ -18,15 +18,14 @@
       "unique": true
     },
     "description": {
-      "type": "richtext"
+      "type": "text"
     },
-    "images": {
+    "logo": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ]
     },
     "slug": {
@@ -38,6 +37,27 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    },
+    "backGroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "transparent",
+        "lightGrey",
+        "lighterSage",
+        "lightOip",
+        "lightPiggy",
+        "harmony"
+      ]
     }
   }
 }

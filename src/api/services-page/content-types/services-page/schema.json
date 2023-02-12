@@ -32,6 +32,19 @@
       "type": "component",
       "repeatable": false,
       "component": "layout.breadcrumb-path"
+    },
+    "serviceLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "max": 4
+    },
+    "servicesPopulate": {
+      "displayName": "servicesPopulate",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.services-populate",
+      "required": true
     }
   }
 }

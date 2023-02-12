@@ -38,7 +38,8 @@
       "displayName": "highLights",
       "type": "component",
       "repeatable": false,
-      "component": "modules.high-lights"
+      "component": "modules.high-lights",
+      "required": true
     },
     "dynamicHomePageSection": {
       "type": "dynamiczone",
