@@ -1,4 +1,4 @@
 module.exports = ({ env }) => ({
-url: env("EXTERNAL_URL", ""),
+url: env("WEBSITE_HOSTNAME", ""),
 
 });
