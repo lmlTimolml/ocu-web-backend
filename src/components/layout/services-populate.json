@@ -2,13 +2,14 @@
   "collectionName": "components_layout_services_populates",
   "info": {
     "displayName": "servicesPopulate",
-    "icon": "border-none"
+    "icon": "border-none",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "services": {
+    "service": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::service.service"
     }
   }

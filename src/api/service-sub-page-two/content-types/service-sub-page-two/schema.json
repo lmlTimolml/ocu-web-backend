@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_sub_page_twos",
+  "info": {
+    "singularName": "service-sub-page-two",
+    "pluralName": "service-sub-page-twos",
+    "displayName": "ServiceSubPageTwo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageTitle",
+      "required": true
+    },
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero",
+      "required": true
+    },
+    "breadcrumbpath": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.breadcrumb-path"
+    },
+    "serviceLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "max": 4
+    },
+    "servicesPopulate": {
+      "displayName": "servicesPopulate",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.services-populate",
+      "required": true
+    }
+  }
+}
