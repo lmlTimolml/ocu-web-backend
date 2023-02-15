@@ -1,5 +1,3 @@
-// path: ./config/database.js
-
 module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
