@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_bg_colors",
+  "info": {
+    "displayName": "BgColor",
+    "icon": "paint-roller"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "enumeration",
+      "enum": [
+        "transparent",
+        "oculos-harmony",
+        "oculos-lightgrey",
+        "oculos-lightersage",
+        "oculos-lightoip",
+        "oculos-piglet"
+      ]
+    }
+  }
+}

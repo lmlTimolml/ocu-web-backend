@@ -10,16 +10,13 @@
     "richTxt": {
       "type": "richtext"
     },
-    "backGroundColor": {
-      "type": "enumeration",
-      "enum": [
-        "transparent",
-        "lightGrey",
-        "lighterSage",
-        "lightOip",
-        "lightPiggy",
-        "harmony"
-      ]
+    "backgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.bg-color"
+    },
+    "heading": {
+      "type": "string"
     }
   }
 }

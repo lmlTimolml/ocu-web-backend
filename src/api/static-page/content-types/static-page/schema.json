@@ -27,7 +27,6 @@
       "components": [
         "modules.heading-content",
         "modules.service-heading-content",
-        "modules.full-media-module",
         "modules.txt-l-square-r-module",
         "modules.txt-l-landscape-r-module",
         "modules.txt-r-square-r-module",

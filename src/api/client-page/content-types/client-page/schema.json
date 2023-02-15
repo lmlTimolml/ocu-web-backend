@@ -35,8 +35,9 @@
     "dynamicClientPageSection": {
       "type": "dynamiczone",
       "components": [
+        "modules.contact-module",
         "modules.modul-01",
-        "modules.contact-module"
+        "modules.generic-layout-module"
       ]
     }
   }
