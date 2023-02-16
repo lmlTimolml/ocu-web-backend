@@ -40,7 +40,8 @@
         "modules.quote-module",
         "modules.rich-text-module",
         "shared.link",
-        "modules.shortcuts-module"
+        "modules.shortcuts-module",
+        "modules.rich-text-element-module"
       ],
       "required": true
     },

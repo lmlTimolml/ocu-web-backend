@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_modules_rich_text_element_modules",
+    "info": {
+      "displayName": "richTextElementModule",
+      "icon": "align-justify",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "richTxt": {
+        "type": "richtext"
+      },
+      "backgroundColor": {
+        "type": "component",
+        "repeatable": false,
+        "component": "shared.bg-color"
+      },
+      "heading": {
+        "type": "string"
+      }
+    }
+  }
+  
